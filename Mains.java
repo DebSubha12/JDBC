@@ -9,7 +9,7 @@ public class Mains {
 
         String url="jdbc:mysql://127.0.0.1:3306/student";
         String username="root";
-        String password="ghoshsubha@123";
+        String password="";
         String query= "INSERT INTO image_table(image_data) VALUES (?)";
         //String image_path="C:\\Users\\SUBHAJIT\\Pictures\\Saved Pictures\\download (9).png";
 
@@ -50,4 +50,5 @@ public class Mains {
         }
 
     }
+
 }
