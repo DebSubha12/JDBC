@@ -6,7 +6,7 @@ public class Transaction {
     public static void main(String[] args) {
         String url = "jdbc:mysql://127.0.0.1:3306/student";
         String username = "root";
-        String password = "ghoshsubha@123";
+        String password = "";
         String withdreawQuery="UPDATE accounts SET balance=balance-? WHERE account_number=?";
         String  depositQuery="UPDATE accounts SET balance=balance+? WHERE account_number=?";
         try {
@@ -44,3 +44,4 @@ public class Transaction {
         }
     }
 }
+
